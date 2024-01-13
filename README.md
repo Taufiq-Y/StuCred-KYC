@@ -19,7 +19,7 @@ This KYC application incorporates functionalities for capturing audio, video, an
 
 ## Features
 # 1. Audio, Video & Image Processing.
-        This is build using javascript and react without any SDks. Users have the capability to capture a photograph of themselves and record their appearance or voice, facilitating the KYC (Know Your Customer) verification process by saving and use it for later. The audio is saved locally, but the audio file and image are stored in DB.
+        This is build using javascript and react without any SDks. The audio is saved locally, but the audio file and image are stored in DB. Users have the capability to capture a photograph of themselves and record their appearance or voice, facilitating the KYC (Know Your Customer) verification process by saving and use it for later.
         
 # 2. Pagination & Sorting.
         Pagination and sorting functionalities have been seamlessly integrated into the backend, streamlining the process of fetching and organizing data efficiently. **This approach enhances overall performance by reducing the data load transferred to the frontend**, resulting in faster rendering times. The backend's management of pagination and sorting also ensures a more responsive and scalable application, promoting an improved user experience.
