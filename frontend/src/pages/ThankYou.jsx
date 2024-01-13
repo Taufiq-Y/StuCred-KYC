@@ -1,6 +1,9 @@
 import React from "react";
 
 const ThankYou = () => {
+  setTimeout(() => {
+    window.location.href='/';
+}, 3000)
   return (
     <div
       style={{

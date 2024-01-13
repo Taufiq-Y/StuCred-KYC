@@ -95,7 +95,6 @@ const KnowCustomer = () => {
 
   const stopVideoRecording = (stream) => {
     const canvas = canvasRef.current;
-  const canvasStyle = canvas.style.display; 
 
   // videoRef.current.srcObject = null;
   // stream.getTracks().forEach((track) => track.stop());
@@ -171,10 +170,10 @@ const KnowCustomer = () => {
           </button>
         )}
     <button className="action-button" onClick={recording ? stopRecording : startRecording}>
-      {recording ? 'Stop Recording' : 'Start Recording'}
+      {recording ? 'Stop Recording Audio' : 'Start Recording Audio'}
     </button>
-    <button className="action-button" onClick={sendAudioToServer} disabled={!audioBlob}>
-      Save Audio
+    <button className="submit-button" onClick={sendAudioToServer} disabled={!audioBlob}>
+      Verify
     </button>
   </div>
   </>

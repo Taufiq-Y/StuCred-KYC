@@ -51,3 +51,14 @@
     margin: 0 auto; 
     overflow: hidden; 
   }
+
+  .submit-button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: blue;
+    color: #fff;
+  }
