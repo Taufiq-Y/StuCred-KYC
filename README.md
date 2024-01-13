@@ -8,7 +8,6 @@ Lets take a look, On how to setup the code base.
 - Execute "npm start" in both terminals and patiently wait for a few moments. Voila! 🚀 You have successfully initialized and compiled the code on your machine.
 
 ## _Prepare the coffee quickly....We have lot to explore !_
-## _The Last Markdown Editor, Ever_
 
 This KYC application incorporates functionalities for capturing audio, video, and images. The application is developed using plain JavaScript and React, without the use of any software development kits (SDKs).
 
@@ -61,6 +60,7 @@ cd frontend
 npm i
 npm start
 ```
+## _Hope your coffee and my application are completed and enjoyed as it's perfectly-brewed. 😜!_
 
 ## License
 
