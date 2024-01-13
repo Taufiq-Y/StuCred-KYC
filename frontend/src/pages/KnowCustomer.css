@@ -1,0 +1,53 @@
+
+.media-element {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .action-button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .action-button.capture {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .action-button.record {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .action-button.save {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+
+  .canvas {
+    max-width: 100%; 
+    max-height: 100%; 
+    width: auto; 
+    height: auto; 
+    border: 1px solid #ccc; 
+  }
+
+  
+  .media-element {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto; 
+    height: auto; 
+    border: 1px solid #ccc; 
+  }
+  
+  .canvas-container {
+    width: 6in; 
+    height: 6in;
+    margin: 0 auto; 
+    overflow: hidden; 
+  }
