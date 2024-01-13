@@ -11,6 +11,10 @@ Lets take a look, On how to setup the code base.
 
 This KYC application incorporates functionalities for capturing audio, video, and images. The application is developed using plain JavaScript and React, without the use of any software development kits (SDKs).
 
+## _Credentials!_
+Email: muhammedtaufiq47@gmail.com
+Pass: Admin@123
+
 ### Features.
 
 - Audio, Video & Image Processing.
