@@ -60,7 +60,7 @@ cd frontend
 npm i
 npm start
 ```
-## _Hope your coffee and my application are completed and enjoyed as it's perfectly-brewed. 😜!_
+## _Hope your coffee and my application both got completed and enjoyed as it's blended & perfectly-brewed. 😜!_
 
 ## License
 
