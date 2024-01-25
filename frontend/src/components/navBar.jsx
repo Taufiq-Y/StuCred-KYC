@@ -38,11 +38,15 @@ const Navbar = ({onLogout}) => {
          <li>
            <NavLink to="/pagination">Pagination</NavLink>
        </li>
+       <li>
+           <NavLink to="/ocr">OCR</NavLink>
+       </li>
         <button className= "logoutbtn" onClick={handleLogout}>Logout</button>
       </ul>
     </nav>
     <p className="text-css">Click on pagination to get list of user data with pagination and sorting</p>
     <p className="text-css">Click on KYC to capture image and audio file</p>
+    <p className="text-css">Click on OCR to Extract Data from Image</p>
     </>
   );
 };

@@ -6,6 +6,7 @@ import KnowCustomer from "./pages/KnowCustomer";
 import Pagination from "./pages/Pagination";
 import Navbar from "./components/navBar";
 import ThankYou from "./pages/ThankYou";
+import CardReader from "./pages/ocr"
 
 function App() {
   const [token, setToken] = useState("");
@@ -24,6 +25,7 @@ function App() {
       {/* <Navbar /> */}
       <Routes>
         <Route path="/pagination" element={<Pagination />} />
+        <Route path="/ocr" element={<CardReader />} />
         <Route path="/kyc" element={<KnowCustomer />} />
         <Route path="/thankyou" element={<ThankYou />} />
         <Route path="/register" element={<Register />} />
